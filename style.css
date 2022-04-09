@@ -5,6 +5,7 @@
   body {
     background: #cff0ff;
     overflow-x: hidden;
+    margin: 0;
   }
   
   /*=============
@@ -234,7 +235,7 @@
     Media Queries
     =============*/
 
-  @media only screen and (max-height: 800px) {
+  @media only screen and (max-height: 900px) {
     #item4 {
       font-size: .8rem;
       padding: 12px;
@@ -244,14 +245,21 @@
       width: 100%;
       padding: 0;
       margin: 0;
+      
       }
     
     .title {
       font-size: 1rem;
-    }
-    
-    #about, #other, #home {
+      flex-wrap: wrap;
       position: relative;
-      bottom: 4rem;
+      left: 4rem;
+    }
+    #col1, #col2 {
+      margin:0;
+    }
+    #other, #about {
+      position: relative;
+      top: 7rem;
+      padding: .4rem;
     }
   }
