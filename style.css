@@ -250,4 +250,8 @@
       font-size: 1rem;
     }
     
+    #about, #other, #home {
+      position: relative;
+      bottom: 4rem;
+    }
   }
