@@ -130,21 +130,26 @@
 
   /* ======================================
     About Page Content Under Construction!
-    =====================================
-  .about-wrapper {
-    display: flex;
-    width: 76.5%;
-    height: 65vh;
-    border: 2px solid coral;
-    justify-content: center;
-    margin: auto;
-    border-radius: 1.5rem;
-  }
-  #about-main {
-    border: 2px solid coral;
-    width: 75%;
-    
-  } */
+    =====================================*/
+   .first  {
+     display: inline-flex;
+     justify-content: flex-end;
+     flex-direction:row;
+     border: 1px solid blue;
+     width:76.5%;
+     margin:auto;
+     position:relative;
+     left:12%;
+   }
+   .box1, .box2 {
+     border: 2px solid salmon;
+     width:100%;
+     align-self: center;
+     margin:2rem;
+     height: 80vh;
+     padding: 2rem;
+   }
+
 
 
   /* =============
