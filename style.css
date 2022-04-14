@@ -135,20 +135,36 @@
      display: inline-flex;
      justify-content: flex-end;
      flex-direction:row;
-     border: 1px solid blue;
      width:76.5%;
      margin:auto;
      position:relative;
      left:12%;
    }
    .box1, .box2 {
-     border: 2px solid salmon;
      width:100%;
      align-self: center;
      margin:2rem;
      height: 80vh;
      padding: 2rem;
+     border-radius: 2rem;
+     text-align: center;
+     color: #494139;
+     font-family: 'Permanent Marker', cursive;
+     box-shadow: 1px 1px 3px rgba(154,171,155, 0.8);
    }
+   .box1 {
+     background:rgba(133, 255, 189, 0.3)
+
+   }
+   .box1 p {
+     font-size: 1.2rem;
+     font-weight: 400;
+   }
+   .box2 {
+     background: url(images/hello.jpg) center no-repeat;
+     background-size: cover;
+    }
+
 
 
 
